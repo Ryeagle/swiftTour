@@ -63,6 +63,9 @@ class ViewController: UITableViewController {
         } else if cellText == "SeceretTextAnimation" {
             let vc = SecretTextViewController()
             navigationController?.pushViewController(vc, animated: true)
+        } else if cellText == "GifAnimation" {
+            let vc = GifAnimationViewController()
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
 
@@ -78,7 +81,8 @@ class ViewController: UITableViewController {
             Tour(tourName: "ProgressAnimation"),
             Tour(tourName: "GradientAnimation"),
             Tour(tourName: "PullRefreshAnimation"),
-            Tour(tourName: "SeceretTextAnimation")
+            Tour(tourName: "SeceretTextAnimation"),
+            Tour(tourName: "GifAnimation")
         ]
     }
 }

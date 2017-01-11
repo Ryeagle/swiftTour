@@ -5,5 +5,6 @@ use_frameworks!
 
 target 'swiftTour' do
     pod 'SnapKit', '~> 3.1.2'
+    pod 'SwiftGifOrigin', '~> 1.6.1'
 end
 

@@ -19,11 +19,11 @@ class CLMLayerAnimation: NSObject {
     class func animation(_ layer: CALayer, duration: TimeInterval, delay: TimeInterval, animations: (() -> ())?, completion: ((_ finished: Bool)-> ())? ) {
         let animation = CLMLayerAnimation()
         
-        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + Double(Int64(delay * Double(NSEC_PER_SEC) / Double(NSEC_PER_SEC)))) {
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + Double(Int64(delay * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC)) {
             var animationGroup: CAAnimationGroup?
             let oldLayer = self.animatableLayerCopy(layer)
             animation.completionClosure = completion
-            
+        
             if let layerAnimations = animations {
                 CATransaction.begin()
                 CATransaction.setDisableActions(true)

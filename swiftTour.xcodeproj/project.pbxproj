@@ -18,6 +18,8 @@
 		754F74D51E1F3BE700D534EA /* PushRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754F74D41E1F3BE700D534EA /* PushRefreshViewController.swift */; };
 		75892C6E1E2502AD00466349 /* CLMLayerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75892C6D1E2502AD00466349 /* CLMLayerAnimation.swift */; };
 		75A4C3041E1FB04900682E15 /* SwiftExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A4C3031E1FB04900682E15 /* SwiftExtensions.swift */; };
+		75E7473D1E261510006FF0FE /* cat-video.gif in Resources */ = {isa = PBXBuildFile; fileRef = 75E7473C1E261510006FF0FE /* cat-video.gif */; };
+		75E747411E261558006FF0FE /* GifAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E747401E261558006FF0FE /* GifAnimationViewController.swift */; };
 		75F9DB031E24DC7C0092B7B0 /* FadingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F9DB021E24DC7C0092B7B0 /* FadingLabel.swift */; };
 		75FFD87A1E1B9ECC002CDBBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FFD8791E1B9ECC002CDBBF /* AppDelegate.swift */; };
 		75FFD87C1E1B9ECC002CDBBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FFD87B1E1B9ECC002CDBBF /* ViewController.swift */; };
@@ -40,6 +42,8 @@
 		754F74D41E1F3BE700D534EA /* PushRefreshViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushRefreshViewController.swift; sourceTree = "<group>"; };
 		75892C6D1E2502AD00466349 /* CLMLayerAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLMLayerAnimation.swift; sourceTree = "<group>"; };
 		75A4C3031E1FB04900682E15 /* SwiftExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftExtensions.swift; sourceTree = "<group>"; };
+		75E7473C1E261510006FF0FE /* cat-video.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cat-video.gif"; sourceTree = "<group>"; };
+		75E747401E261558006FF0FE /* GifAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifAnimationViewController.swift; sourceTree = "<group>"; };
 		75F9DB021E24DC7C0092B7B0 /* FadingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadingLabel.swift; sourceTree = "<group>"; };
 		75FFD8761E1B9ECC002CDBBF /* swiftTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FFD8791E1B9ECC002CDBBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +136,7 @@
 				750B77CA1E1D0E8C00964471 /* GradientViewController.swift */,
 				754F74D41E1F3BE700D534EA /* PushRefreshViewController.swift */,
 				7530A7121E20BA640042A03F /* SecretTextViewController.swift */,
+				75E747401E261558006FF0FE /* GifAnimationViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 		75FFD88E1E1BB042002CDBBF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				75E7473C1E261510006FF0FE /* cat-video.gif */,
 				75FFD8801E1B9ECC002CDBBF /* Assets.xcassets */,
 				75FFD8821E1B9ECC002CDBBF /* LaunchScreen.storyboard */,
 				75FFD8851E1B9ECC002CDBBF /* Info.plist */,
@@ -238,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E7473D1E261510006FF0FE /* cat-video.gif in Resources */,
 				75FFD8841E1B9ECC002CDBBF /* LaunchScreen.storyboard in Resources */,
 				75FFD8811E1B9ECC002CDBBF /* Assets.xcassets in Resources */,
 			);
@@ -299,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7530A7111E208B790042A03F /* GlobalFunctions.swift in Sources */,
+				75E747411E261558006FF0FE /* GifAnimationViewController.swift in Sources */,
 				75FFD8901E1BB06A002CDBBF /* Tour.swift in Sources */,
 				75FFD87C1E1B9ECC002CDBBF /* ViewController.swift in Sources */,
 				75F9DB031E24DC7C0092B7B0 /* FadingLabel.swift in Sources */,
