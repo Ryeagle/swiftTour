@@ -10,6 +10,15 @@
 		40AFF204B8BC8892D60BE315 /* Pods_swiftTour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0578C57920B9FFEC401DFC2 /* Pods_swiftTour.framework */; };
 		750B77CB1E1D0E8C00964471 /* GradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B77CA1E1D0E8C00964471 /* GradientViewController.swift */; };
 		750B77CD1E1D0EEB00964471 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B77CC1E1D0EEB00964471 /* GradientView.swift */; };
+		752A03511E23B16C004617F7 /* CharacterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752A03501E23B16C004617F7 /* CharacterLabel.swift */; };
+		7530A7111E208B790042A03F /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7530A7101E208B790042A03F /* GlobalFunctions.swift */; };
+		7530A7131E20BA640042A03F /* SecretTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7530A7121E20BA640042A03F /* SecretTextViewController.swift */; };
+		7530A7151E20BC0F0042A03F /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7530A7141E20BC0F0042A03F /* Quote.swift */; };
+		754F74D31E1F3BB500D534EA /* PullRefeshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754F74D21E1F3BB500D534EA /* PullRefeshView.swift */; };
+		754F74D51E1F3BE700D534EA /* PushRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754F74D41E1F3BE700D534EA /* PushRefreshViewController.swift */; };
+		75892C6E1E2502AD00466349 /* CLMLayerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75892C6D1E2502AD00466349 /* CLMLayerAnimation.swift */; };
+		75A4C3041E1FB04900682E15 /* SwiftExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A4C3031E1FB04900682E15 /* SwiftExtensions.swift */; };
+		75F9DB031E24DC7C0092B7B0 /* FadingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F9DB021E24DC7C0092B7B0 /* FadingLabel.swift */; };
 		75FFD87A1E1B9ECC002CDBBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FFD8791E1B9ECC002CDBBF /* AppDelegate.swift */; };
 		75FFD87C1E1B9ECC002CDBBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FFD87B1E1B9ECC002CDBBF /* ViewController.swift */; };
 		75FFD8811E1B9ECC002CDBBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FFD8801E1B9ECC002CDBBF /* Assets.xcassets */; };
@@ -23,6 +32,15 @@
 		2C15BD7D64CFCA531786A8E3 /* Pods-swiftTour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftTour.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftTour/Pods-swiftTour.release.xcconfig"; sourceTree = "<group>"; };
 		750B77CA1E1D0E8C00964471 /* GradientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientViewController.swift; sourceTree = "<group>"; };
 		750B77CC1E1D0EEB00964471 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		752A03501E23B16C004617F7 /* CharacterLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterLabel.swift; sourceTree = "<group>"; };
+		7530A7101E208B790042A03F /* GlobalFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
+		7530A7121E20BA640042A03F /* SecretTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecretTextViewController.swift; sourceTree = "<group>"; };
+		7530A7141E20BC0F0042A03F /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		754F74D21E1F3BB500D534EA /* PullRefeshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRefeshView.swift; sourceTree = "<group>"; };
+		754F74D41E1F3BE700D534EA /* PushRefreshViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushRefreshViewController.swift; sourceTree = "<group>"; };
+		75892C6D1E2502AD00466349 /* CLMLayerAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLMLayerAnimation.swift; sourceTree = "<group>"; };
+		75A4C3031E1FB04900682E15 /* SwiftExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftExtensions.swift; sourceTree = "<group>"; };
+		75F9DB021E24DC7C0092B7B0 /* FadingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadingLabel.swift; sourceTree = "<group>"; };
 		75FFD8761E1B9ECC002CDBBF /* swiftTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FFD8791E1B9ECC002CDBBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75FFD87B1E1B9ECC002CDBBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +75,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		75A4C3011E1FB01300682E15 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7530A7101E208B790042A03F /* GlobalFunctions.swift */,
+				75892C6D1E2502AD00466349 /* CLMLayerAnimation.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		75A4C3021E1FB01300682E15 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				75A4C3031E1FB04900682E15 /* SwiftExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		75FFD86D1E1B9ECC002CDBBF = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +117,8 @@
 				75FFD88B1E1BB03C002CDBBF /* Controllers */,
 				75FFD88C1E1BB03C002CDBBF /* Models */,
 				75FFD88D1E1BB03C002CDBBF /* Views */,
+				75A4C3011E1FB01300682E15 /* Helpers */,
+				75A4C3021E1FB01300682E15 /* Extensions */,
 				75FFD88E1E1BB042002CDBBF /* Supporting Files */,
 			);
 			path = swiftTour;
@@ -93,6 +130,8 @@
 				75FFD87B1E1B9ECC002CDBBF /* ViewController.swift */,
 				75FFD8911E1BBB4B002CDBBF /* ProgressViewController.swift */,
 				750B77CA1E1D0E8C00964471 /* GradientViewController.swift */,
+				754F74D41E1F3BE700D534EA /* PushRefreshViewController.swift */,
+				7530A7121E20BA640042A03F /* SecretTextViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -101,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				75FFD88F1E1BB06A002CDBBF /* Tour.swift */,
+				7530A7141E20BC0F0042A03F /* Quote.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -110,6 +150,9 @@
 			children = (
 				75FFD8931E1BC35C002CDBBF /* ProgressView.swift */,
 				750B77CC1E1D0EEB00964471 /* GradientView.swift */,
+				754F74D21E1F3BB500D534EA /* PullRefeshView.swift */,
+				752A03501E23B16C004617F7 /* CharacterLabel.swift */,
+				75F9DB021E24DC7C0092B7B0 /* FadingLabel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -255,12 +298,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7530A7111E208B790042A03F /* GlobalFunctions.swift in Sources */,
 				75FFD8901E1BB06A002CDBBF /* Tour.swift in Sources */,
 				75FFD87C1E1B9ECC002CDBBF /* ViewController.swift in Sources */,
+				75F9DB031E24DC7C0092B7B0 /* FadingLabel.swift in Sources */,
+				7530A7131E20BA640042A03F /* SecretTextViewController.swift in Sources */,
 				750B77CB1E1D0E8C00964471 /* GradientViewController.swift in Sources */,
+				7530A7151E20BC0F0042A03F /* Quote.swift in Sources */,
+				752A03511E23B16C004617F7 /* CharacterLabel.swift in Sources */,
 				75FFD8941E1BC35C002CDBBF /* ProgressView.swift in Sources */,
+				754F74D31E1F3BB500D534EA /* PullRefeshView.swift in Sources */,
 				750B77CD1E1D0EEB00964471 /* GradientView.swift in Sources */,
+				75892C6E1E2502AD00466349 /* CLMLayerAnimation.swift in Sources */,
 				75FFD87A1E1B9ECC002CDBBF /* AppDelegate.swift in Sources */,
+				75A4C3041E1FB04900682E15 /* SwiftExtensions.swift in Sources */,
+				754F74D51E1F3BE700D534EA /* PushRefreshViewController.swift in Sources */,
 				75FFD8921E1BBB4B002CDBBF /* ProgressViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

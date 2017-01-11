@@ -71,10 +71,16 @@ class GradientView: UIView {
     
     override func didMoveToWindow() {
         super.didMoveToWindow()
-        
+    }
+
+    
+    //MARK: Private
+    
+    private func configSubViews() {
+        gradientLayer.frame = bounds
         layer.backgroundColor = UIColor.clear.cgColor
         layer.addSublayer(gradientLayer)
-
+        
         let gradientAnimation = CABasicAnimation(keyPath: "locations")
         gradientAnimation.fromValue = [0.0, 0.0, 0.25]
         gradientAnimation.toValue = [0.75, 1.0, 1.0]
@@ -84,13 +90,6 @@ class GradientView: UIView {
         gradientAnimation.fillMode = kCAFillModeForwards
         
         gradientLayer.add(gradientAnimation, forKey: nil)
-    }
-
-    
-    //MARK: Private
-    
-    private func configSubViews() {
-        gradientLayer.frame = bounds
     }
 
 }

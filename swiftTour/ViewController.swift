@@ -57,6 +57,12 @@ class ViewController: UITableViewController {
         } else if cellText == "GradientAnimation" {
             let vc = GradientViewController()
             navigationController?.pushViewController(vc, animated: true)
+        } else if cellText == "PullRefreshAnimation" {
+            let vc = PushRefreshViewController()
+            navigationController?.pushViewController(vc, animated: true)
+        } else if cellText == "SeceretTextAnimation" {
+            let vc = SecretTextViewController()
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
 
@@ -70,7 +76,9 @@ class ViewController: UITableViewController {
     private func loadSamples() {
         tours += [
             Tour(tourName: "ProgressAnimation"),
-            Tour(tourName: "GradientAnimation")
+            Tour(tourName: "GradientAnimation"),
+            Tour(tourName: "PullRefreshAnimation"),
+            Tour(tourName: "SeceretTextAnimation")
         ]
     }
 }
